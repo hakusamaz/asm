@@ -43,6 +43,13 @@
     margin-left: auto;
     display: block;
 }
+
+#product .items .item .item-gia .item-phan-tram-giam-gia{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e60000;
+    font-size: 15px;
+}
 .btn{
     border: none;
     border-radius: 5px;
