@@ -89,8 +89,6 @@ function ChuyenDoiTuongSanPhamThanhHTML(sanPham) {
     html += '<div class="item-gia">'
     html += '<span class="item-gia-goc">' + sanPham.giaGoc + 'đ</span>'
     html += '<span class="item-gia-ban">' + '&nbsp' + sanPham.tinhGiaBan() + 'đ</span>'
-    html += '<span class="item-phan-tram-giam-gia">' + sanPham.phanTramGiamGia + '%</span>'
-
     html += '</div>'
     html += '<button onclick= "onClickDuaVaoGioHang(\'' + sanPham.id + '\')" class="btn btn-primary">Đưa vào giỏ hàng</button>'
     html += '</div>'
@@ -122,4 +120,3 @@ function layDanhSachSanPhamDuoiLocalStorage() {
     var danhSachSanPham = JSON.parse(jsonDanhSachSanPham);
     return danhSachSanPham;
 }
-
